@@ -1,0 +1,9 @@
+#project-info{
+  display: flex;
+  flex-direction: row;
+}
+
+#project-list-item{
+  font: "Open Sans";
+  font-size: 20px;
+}

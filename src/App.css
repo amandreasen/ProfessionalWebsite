@@ -2,37 +2,90 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.MuiAvatar-root{
+  display: flex;
+  align-items: center;
+  align-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.MuiBox-root{
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
+  text-align: center;
+  align-content: center;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 20px
 }
 
-.App-link {
-  color: #61dafb;
+/* .MuiContainer {
+  text-align: center;
+  align-content: center;
+} */
+
+.MuiTypography-h1 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  color: #1D2542;
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.MuiTypography-h2 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  color: #1D2542;
+  text-align: center;
+}
+
+
+.MuiTypography-h3 {
+  font-family: "Montserrat";
+  color: #C2364F;
+  text-align: center;
+}
+
+.MuiTypography-h4 {
+  font-family: "Montserrat";
+  color: #1D2542;
+  text-align: center;
+}
+
+.MuiTypography-h5 {
+  font-family: "Montserrat";
+  color: #C2364F;
+  text-align: center;
+}
+
+.MuiTypography-h6 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  color: #1D2542;
+  text-align: center;
+  font-size:30px
+}
+
+.MuiTypography-body1 {
+  font-family: "Open Sans";
+  font-weight: lighter;
+  text-align: center;
+  font-size: 28px;
+}
+
+
+#list-item{
+  font: "Open Sans";
+  font-size: 16px
+}
+
+.MuiListItem-root{
+  display: list-item
+}
+
+.MuiList-root{
+  list-style-type: "-";
+}
+
+.img{
+  position: relative
 }

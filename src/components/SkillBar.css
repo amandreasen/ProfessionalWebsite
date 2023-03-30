@@ -1,0 +1,26 @@
+#skill{
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+}
+
+#skill-container{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  text-align: center;
+  align-items: left;
+  justify-content: center;
+  gap: 20px;
+  width: 800px;
+  height: 50px; 
+  border: 1px dashed grey;
+}
+
+#skill-bar{
+  margin-right: auto
+}
+
+
+
+

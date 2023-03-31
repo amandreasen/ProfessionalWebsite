@@ -28,14 +28,11 @@ export default function Projects(props){
         "Encoded backend game logic such as game state updates and Pacman ghost AI"
         ]}
       />
-      {/* •	Integrated Google Places API to display coronavirus cases by U.S. county given a location 
-•	Used Python Flask server and SQLite database to create an API that supports searching COVID case data
-•	Used React.js to create client-side application */}
-
       <Project 
         title="Covid-19 Data Visualization"
         tech={["React.js", "Flask", "SQL"]}
         imageSrc={CovidDataImg}
+        link="https://github.com/amandreasen/covid_data_vis"
         descItems={["Integrated Google Places API to display coronavirus cases by" +  
         "U.S. county given a location",
         "Used Python Flask server and SQL database to create an API that" + 

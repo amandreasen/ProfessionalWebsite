@@ -1,8 +1,8 @@
 import React from 'react';
-import {Box, Container, Grid, Typography, List, ListItem} from "@mui/material";
+import {Box, Container, Grid, Typography, Link, List, ListItem} from "@mui/material";
 import "./Project.css"
 
-export default function Project({title, imageSrc, tech, descItems}){
+export default function Project({title, imageSrc, link, tech, descItems}){
   return (
     <Grid container spacing={3} 
     direction="column"
@@ -33,6 +33,11 @@ export default function Project({title, imageSrc, tech, descItems}){
           </Container>
         </Box>
       </Grid>
+      {link && 
+      <Grid item xs={12} id="link-container">
+          <Link href={link}>Learn more</Link>
+      </Grid>
+      }
     </Grid>
   )
 }

@@ -7,3 +7,12 @@
   font: "Open Sans";
   font-size: 20px;
 }
+
+#link-container{
+  margin-right: auto;
+  margin-left: 40px
+}
+
+.Link{
+  text-align: right
+}

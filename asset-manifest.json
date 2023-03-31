@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ProfessionalWebsite/static/css/main.799be91e.css",
-    "main.js": "/ProfessionalWebsite/static/js/main.a3e76ae6.js",
+    "main.css": "/ProfessionalWebsite/static/css/main.1c07dcfe.css",
+    "main.js": "/ProfessionalWebsite/static/js/main.b79c3d82.js",
     "static/media/avatar.JPG": "/ProfessionalWebsite/static/media/avatar.040ef5a58bc6d45ed699.JPG",
     "static/media/covid_data_vis.png": "/ProfessionalWebsite/static/media/covid_data_vis.206cb3d0998e6eacdb11.png",
     "static/media/open-sans-all-400-normal.woff": "/ProfessionalWebsite/static/media/open-sans-all-400-normal.cb2542fccedadc68d737.woff",
@@ -23,11 +23,11 @@
     "static/media/open-sans-greek-ext-400-normal.woff2": "/ProfessionalWebsite/static/media/open-sans-greek-ext-400-normal.1ed998a42083750e175e.woff2",
     "static/media/montserrat-vietnamese-400-normal.woff2": "/ProfessionalWebsite/static/media/montserrat-vietnamese-400-normal.8f3f4c99eb0eeb5990f1.woff2",
     "index.html": "/ProfessionalWebsite/index.html",
-    "main.799be91e.css.map": "/ProfessionalWebsite/static/css/main.799be91e.css.map",
-    "main.a3e76ae6.js.map": "/ProfessionalWebsite/static/js/main.a3e76ae6.js.map"
+    "main.1c07dcfe.css.map": "/ProfessionalWebsite/static/css/main.1c07dcfe.css.map",
+    "main.b79c3d82.js.map": "/ProfessionalWebsite/static/js/main.b79c3d82.js.map"
   },
   "entrypoints": [
-    "static/css/main.799be91e.css",
-    "static/js/main.a3e76ae6.js"
+    "static/css/main.1c07dcfe.css",
+    "static/js/main.b79c3d82.js"
   ]
 }

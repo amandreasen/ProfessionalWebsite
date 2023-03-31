@@ -15,6 +15,11 @@ export default function Project({title, imageSrc, link, tech, descItems}){
         {tech.join(" - ")} 
         </Typography>
       </Grid>
+      {link && 
+      <Grid item xs={12} id="link-container">
+          <Link href={link}>Learn more</Link>
+      </Grid>
+      }
       <Grid item xs={12}>
         <Box id="project-info">
           <img src={imageSrc} alt="oops" width="150px" height="200px"/>
@@ -33,11 +38,6 @@ export default function Project({title, imageSrc, link, tech, descItems}){
           </Container>
         </Box>
       </Grid>
-      {link && 
-      <Grid item xs={12} id="link-container">
-          <Link href={link}>Learn more</Link>
-      </Grid>
-      }
     </Grid>
   )
 }

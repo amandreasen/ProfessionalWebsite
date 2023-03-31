@@ -33,9 +33,9 @@ export default function Projects(props){
         tech={["React.js", "Flask", "SQL"]}
         imageSrc={CovidDataImg}
         link="https://github.com/amandreasen/covid_data_vis"
-        descItems={["Integrated Google Places API to display coronavirus cases by" +  
+        descItems={["Integrated Google Places API to display coronavirus cases by " +  
         "U.S. county given a location",
-        "Used Python Flask server and SQL database to create an API that" + 
+        "Used Python Flask server and SQL database to create an API that " + 
         "supports searching COVID case data",
         "Used React.js to create client-side application"
         ]}

@@ -18,12 +18,12 @@ export default function Intro(props){
           <Icon src={GmailIcon} link="mailto:apa49@cornell.edu"/>
           <Icon src={LinkedIn} link="https://www.linkedin.com/in/amanda-andreasen/"/>
       </Stack>
-      <Typography variant="body1" sx={{width: "60%"}}>
+      <Typography variant="body1" sx={{width: "50%"}}>
       I’m a senior studying computer science at 
       <span>
       Cornell University. 
       </span>
-      Upon graduating, I will be working at a software engineer at 
+      Upon graduating, I will be working as a software engineer at 
       <span>
         Jane Street Capital.
       </span>
